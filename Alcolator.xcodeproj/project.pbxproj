@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		154486DA1C5AA3CC00484C17 /* WhiskyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 154486D91C5AA3CC00484C17 /* WhiskyViewController.m */; };
+		154486DD1C5AAA3100484C17 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 154486DC1C5AAA3100484C17 /* MainMenuViewController.m */; };
 		156255F11C56A08F0034A56F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 156255F01C56A08F0034A56F /* main.m */; };
 		156255F41C56A08F0034A56F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 156255F31C56A08F0034A56F /* AppDelegate.m */; };
 		156255F71C56A08F0034A56F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156255F61C56A08F0034A56F /* ViewController.m */; };
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		154486D81C5AA3CC00484C17 /* WhiskyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiskyViewController.h; sourceTree = "<group>"; };
+		154486D91C5AA3CC00484C17 /* WhiskyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskyViewController.m; sourceTree = "<group>"; };
+		154486DB1C5AAA3100484C17 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		154486DC1C5AAA3100484C17 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
 		156255EB1C56A08F0034A56F /* Alcolator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alcolator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		156255EF1C56A08F0034A56F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		156255F01C56A08F0034A56F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -86,9 +92,13 @@
 				156255F51C56A08F0034A56F /* ViewController.h */,
 				156255F61C56A08F0034A56F /* ViewController.m */,
 				156255F81C56A0900034A56F /* Main.storyboard */,
+				154486DB1C5AAA3100484C17 /* MainMenuViewController.h */,
+				154486DC1C5AAA3100484C17 /* MainMenuViewController.m */,
 				156255FB1C56A0900034A56F /* Images.xcassets */,
 				156255FD1C56A0900034A56F /* LaunchScreen.xib */,
 				156255EE1C56A08F0034A56F /* Supporting Files */,
+				154486D81C5AA3CC00484C17 /* WhiskyViewController.h */,
+				154486D91C5AA3CC00484C17 /* WhiskyViewController.m */,
 			);
 			path = Alcolator;
 			sourceTree = "<group>";
@@ -222,6 +232,8 @@
 				156255F71C56A08F0034A56F /* ViewController.m in Sources */,
 				156255F41C56A08F0034A56F /* AppDelegate.m in Sources */,
 				156255F11C56A08F0034A56F /* main.m in Sources */,
+				154486DA1C5AA3CC00484C17 /* WhiskyViewController.m in Sources */,
+				154486DD1C5AAA3100484C17 /* MainMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Alcolator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +373,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Alcolator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +432,7 @@
 				156256101C56A0900034A56F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		156256111C56A0900034A56F /* Build configuration list for PBXNativeTarget "AlcolatorTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +441,7 @@
 				156256131C56A0900034A56F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
